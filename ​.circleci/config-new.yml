@@ -5,5 +5,4 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
-      - run: echo -e "\e[1;32m System Loaded by Mohammed \e[0m"
-      - run: echo -e "\e[1;36m Commission: 1% \e[0m"
+      - run: echo "Success"
